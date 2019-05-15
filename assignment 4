@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+import sys
+
+def main():
+        print(sys.argv)
+        var = (len(sys.argv))
+        print('the length of argument passed is :',var)
+if __name__ == '__main__':
+        main()
