@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+
+def main():
+        fname = input('Enter First name :')
+        lname = input('Enter last name :')
+        print('Your Full Name is: %s %s'%(fname.title(),lname.upper()))
+if __name__ == '__main__':
+        main()
