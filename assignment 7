@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+import sys
+
+def main():
+        var = (len(sys.argv))
+        if var == 3:
+                print('Correct number of arguments passed.')
+        else:
+                print('Invalid number of arguments.')
+                sys.exit (20)
+
+if __name__ == '__main__':
+        main()
+
