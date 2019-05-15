@@ -1,0 +1,27 @@
+#!/usr/bin/python3  -tt
+def my_add(var1,var2):
+        result =(var1 + var2)
+        print(str(var1) + ' + ' + str(var2) + ' is ' + str(result))
+        return result
+def my_sub(var1,var2):
+        result =(var1 - var2)
+        print(str(var1) + ' - ' + str(var2) + ' is ' + str(result))
+        return result
+def my_div(var1,var2):
+        result =(var1 / var2)
+        print(str(var1) + ' / ' + str(var2) + ' is ' + str(result))
+        return result
+def my_mul(var1,var2):
+        result =(var1 * var2)
+        print(str(var1) + ' * ' + str(var2) + ' is ' + str(result))
+        return result
+def main():
+        var1 = 200
+        var2 = 100
+        my_add(var1,var2)
+        my_sub(var1,var2)
+        my_div(var1,var2)
+        my_mul(var1,var2)
+
+if __name__ == '__main__':
+        main()
