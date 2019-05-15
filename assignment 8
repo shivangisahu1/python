@@ -1,0 +1,18 @@
+ #!/usr/bin/python3 -tt
+
+import sys
+
+def main():
+        var=input('Enter an integer between 10 and 50:')
+        if var.isdigit():
+                digi1=int(var)
+                if digi1<=10 or digi1>=50:
+                        print('Integer value not between the specified range \nProgram exiting!!!')
+                        sys.exit(20)
+                else :
+                        print('The value entered is' + str(digi1))
+        else:
+                print('Not an integer value')
+                sys.exit(10)
+if __name__ == '__main__':
+        main()
