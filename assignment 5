@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+import sys
+def main():
+        print(sys.argv)
+
+        var1=(sys.argv[1])
+        var2=(len(sys.argv[1]))
+        print('the arg pass by user is ' + var1 + ' and len is ' + str(var2))
+        #print(len(sys.argv[1]))
+if __name__ == '__main__':
+        main()
