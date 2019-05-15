@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+def main():
+        var1 = 'hello'
+        var2 = 'world'
+        print('the value of var1 is:',var1)
+        print('the value of var2 is:',var2)
+
+if __name__ == '__main__':
+        main()
