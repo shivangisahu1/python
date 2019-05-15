@@ -1,0 +1,13 @@
+#!/usr/bin/python3 -tt
+
+def main():
+        var=input('Enter an integer value:')
+        if var.isdigit():
+                print('The number entered by the user is:' +var)
+        elif var=='':
+                print('You are smart. You just pressed the "Enter Key!!!"')
+        else:
+                print('Not a valid integer')
+
+if __name__ == '__main__':
+        main()
