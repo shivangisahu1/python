@@ -1,0 +1,9 @@
+
+#!/usr/bin/python3
+def main():
+        first_name = 'Tinku'
+        last_name  = 'Pinky'
+        print('full name is:',first_name,last_name)
+
+if __name__ == '__main__':
+        main()
